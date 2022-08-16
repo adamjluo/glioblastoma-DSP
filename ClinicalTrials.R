@@ -15,8 +15,8 @@ gt_tbl <- gt(clintrials_df)
 gt_tbl <-
   gt_tbl %>%
   tab_header(
-    title = md("**CLINICAL TRIALS TARGETING B7-H3 IN GLIOBLASTOMA**"),
-    subtitle = md("Note: None of these trials have an *\"active\"* status")
+    title = md("**TABLE 1: CLINICAL TRIALS TARGETING B7-H3 IN GLIOBLASTOMA**"),
+    subtitle = md("Note: As few as three out of these five trials have achieved *\"recruiting\"* status")
   ) %>%
   tab_source_note(
     source_note = md("Source: *ClinicalTrials.gov* with keywords **glioblastoma** and **B7-H3**")
