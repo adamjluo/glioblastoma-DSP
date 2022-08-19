@@ -3,7 +3,7 @@ library(tidyverse)
 library(gt)
 
 # Read CSV file from github
-clintrials_df <- read.csv("https://raw.githubusercontent.com/adamjluo/glioblastoma-DSP/main/B7-H3_GBM_Trials.csv")
+clintrials_df <- read.csv("https://raw.githubusercontent.com/adamjluo/glioblastoma-DSP/main/b7h3-trials.csv")
 
 # Remove periods from column names
 colnames(clintrials_df) <- gsub("[.]", " ", colnames(clintrials_df))
